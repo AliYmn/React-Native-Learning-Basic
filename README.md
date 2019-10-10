@@ -2,4 +2,6 @@
 
 ###  Ref : https://docs.nativebase.io/docs/examples/ReduxCounterExample.html
 
-<center><img src="./images/example1.png"></img></center>
+<p align="center">
+  <img src="./images/example1.png">
+</p>
