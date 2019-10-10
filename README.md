@@ -1,3 +1,5 @@
-### I learning React Native
+# React Native Redux Counter Example
 
-*** i will write...
+###  Ref : https://docs.nativebase.io/docs/examples/ReduxCounterExample.html
+
+<center><img src="./images/example1.png"></img></center>
