@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "first",
+    "slug": "FirstApp",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+    "splash": {
+      "image": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
