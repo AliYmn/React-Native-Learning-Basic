@@ -1,6 +1,5 @@
 import { combineReducers } from 'redux';
-import countReducer from './redux/reducers/countReducer.js/index.js';
-
+import countReducer from './reducers/countReducer.js';
 const allReducers = combineReducers({
     count: countReducer,
 });

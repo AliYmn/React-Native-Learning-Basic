@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Content, Text, Card, Header, Body, Button, Title, CardItem } from 'native-base';
 
-import { increment, decrement } from './redux/index.js';
+import { increment, decrement } from '../redux/index';
 
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
@@ -13,7 +13,7 @@ class Counter extends Component {
             <Container>
                 <Header>
                     <Body>
-                        <Title>Redux Counter</Title>
+                        <Title >Redux Counter App</Title>
                     </Body>
                 </Header>
                 <Content padder>
@@ -24,9 +24,11 @@ class Counter extends Component {
                             </Text>
                         </CardItem>
                     </Card>
+                    <br />
                     <Button dark bordered onPress={() => this.props.increment()}>
                         <Text>Increment</Text>
                     </Button>
+                    <br />
                     <Button dark bordered onPress={() => this.props.decrement()}>
                         <Text>Decrement</Text>
                     </Button>
